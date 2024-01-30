@@ -1,4 +1,4 @@
-# Sensible: Student Time Saving App
+# Sensible: The Group App Designed to Get Things Done
  
 ## Running the Project in Android Studio
 
