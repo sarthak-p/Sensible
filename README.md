@@ -1,5 +1,5 @@
 # Sensible
-## Sensible: Student Time Saving App
+## Student Time Saving App
  
 ## Running the Project in Android Studio
 
