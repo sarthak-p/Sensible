@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4b4b4b"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- FloatingActionButton -->
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4B4B4B"
+        android:ems="100"
+        android:fontFamily="arial"
+        android:gravity="top|left"
+        android:inputType="time"
+        android:paddingTop="20dp"
+        android:text="Your Groups"
+        android:textColor="#C8C8C8"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/listGroups"
+        style="@android:style/Widget.DeviceDefault.Light.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:layout_below="@id/editTextTime2"
+        android:layout_marginTop="0dp"
+        android:background="#4b4b4b"
+        android:cacheColorHint="#b297ff"
+        android:choiceMode="multipleChoice"
+        android:divider="#b297ff"
+        android:dividerHeight="2dp"
+        android:paddingTop="0dp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addGrpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</RelativeLayout>

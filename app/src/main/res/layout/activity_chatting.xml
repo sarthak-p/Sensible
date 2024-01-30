@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4b4b4b"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:translationZ="45dp">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:translationY="585dp"
+        app:boxBackgroundColor="#c8c8c8"
+        app:boxBackgroundMode="outline"
+        app:hintTextColor="#000000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="336dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="100"
+            android:gravity="bottom|center_horizontal"
+            android:hint="hint"
+            android:inputType="text|textNoSuggestions"
+            android:textColor="#000000"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ListView
+        android:id="@+id/listChat"
+        style="#c8c8c8"
+        android:layout_width="wrap_content"
+
+        android:layout_height="528dp"
+        android:alwaysDrawnWithCache="true"
+        android:cacheColorHint="#ffffff"
+        android:choiceMode="singleChoice"
+        android:divider="#b297ff"
+        android:dividerHeight="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:translationX="268dp"
+            android:translationY="1dp"
+            app:backgroundTint="#c8c8c8"
+            tools:src="@android:drawable/ic_dialog_email" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:text="CS 422"
+        android:textColor="#c8c8c8"
+        android:textSize="30sp"
+        android:translationY="-650dp"
+        tools:text="CS 422" />
+
+</LinearLayout>
+

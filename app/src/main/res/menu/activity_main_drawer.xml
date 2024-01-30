@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_current_group_chat"
+            android:title="@string/current_group_chat" />
+        <item
+            android:id="@+id/nav_members"
+            android:title="@string/menu_members" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:title="@string/menu_calendar" />
+        <item
+            android:id="@+id/nav_notes"
+            android:title="@string/menu_notes"
+            android:icon="@drawable/ic_menu_gallery" />
+        <item
+            android:id="@+id/nav_archives"
+            android:title="@string/menu_archives"
+            android:icon="@drawable/ic_menu_slideshow"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/menu_gallery"
+            android:icon="@drawable/ic_menu_camera"/>
+
+        <item
+            android:id="@+id/nav_back_groups"
+            android:title="@string/menu_back_groups" />
+    </group>
+</menu>
